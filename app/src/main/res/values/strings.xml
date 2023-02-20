@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">Praktika18_02</string>
-    <string name="but_1">Кнопка 1</string>
-    <string name="but_2">Кнопка 2</string>
-    <string name="Hello">Hello World!</string>
-    <string name="but_save">Сохранить</string>
-    <string name="edText1">Введите данные(1):</string>
-    <string name="edText2">Введите данные(2):</string>
+    <string name="but_1">Вариант 1</string>
+    <string name="but_2">Вариант 2</string>
+    <string name="Hello">Вывод</string>
+    <string name="but_save">ОК</string>
+    <string name="edText1">Данные №1:</string>
+    <string name="edText2">Данные №2:</string>
 </resources>

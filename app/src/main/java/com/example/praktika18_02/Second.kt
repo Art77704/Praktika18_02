@@ -29,7 +29,7 @@ class Second : AppCompatActivity() {
             val i = Intent()
             i.putExtra(Const.BUTTON_STATE, Const.SIGN_ONE)
             i.putExtra(Const.SIGN_ONE, bind.edTask1.text.toString())
-            i.putExtra(Const.SIGN_TWO, "Кнопка 2 не задействована")
+            i.putExtra(Const.SIGN_TWO, "Вариант 2 не задействован")
             setResult(RESULT_OK, i)
             finish()
         }
@@ -37,7 +37,7 @@ class Second : AppCompatActivity() {
             val i = Intent()
             i.putExtra(Const.BUTTON_STATE, Const.SIGN_TWO)
             i.putExtra(Const.SIGN_TWO, bind.edTask2.text.toString())
-            i.putExtra(Const.SIGN_ONE, "Кнопка 1 не задействована")
+            i.putExtra(Const.SIGN_ONE, "Вариант 1 не задействован")
             setResult(RESULT_OK, i)
             finish()
         }
